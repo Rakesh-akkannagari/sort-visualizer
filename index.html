@@ -17,7 +17,11 @@
         </div>
         <nav class="navbar">
             <div class="nav-left">
-                <button class="new-array" onclick="update_array()">Generate New Array</button>
+                <div class="btns">
+                    <button class="new-array" onclick="update_array()">Generate New Array</button>
+                    <button class="stop" onclick="update_array()"> Stop </button>
+                </div>
+                
                 <div class="inputs">
                     <label>Size: </label>
                     <input type="range" min="20" max="150" class="slider" value="30" id="arrayRange" >&nbsp;(20-150)
