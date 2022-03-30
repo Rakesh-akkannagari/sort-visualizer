@@ -31,10 +31,11 @@ arrSize.addEventListener("input",update_array);
 generate_new.addEventListener("click",update_array);
 
 function update_array(){
+    title.textContent = "Sorting";
+    describe.innerHTML = "";
     arrlength = arrSize.value;
     make_array(arrlength);
 }
-
 
 
 //___________________vizualize_____________________
@@ -325,12 +326,3 @@ function quick_sort (start, end )
         quick_sort (piv_pos +1, end) ;//sorts the right side of pivot.
     }
  }
-
-
-
-
-
-
-
-
-
