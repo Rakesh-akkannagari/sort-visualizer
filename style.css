@@ -6,7 +6,7 @@
     margin: 5px;
     text-align: center;
     text-transform: uppercase;
-    background-color: #ff9f9a;
+    background-color: #199cde;
     line-height: 60px;
     border-radius: 8px;
     color: rgb(7, 7, 7);
@@ -74,7 +74,7 @@
 }
 .new-array,.stop  {
     padding: 10px;
-    background: #BD1E51;
+    background: #e83766;
     border-radius: 8px;
     line-height: 25px;
     width: 175px;
