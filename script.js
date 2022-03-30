@@ -9,7 +9,7 @@ var block_sizes=[];
 var blocks=[];
 
 make_array(arrlength);
-console.log("hi");
+
 function make_array(arrlength){
     block_sizes=[];
     blocks=[];
@@ -23,7 +23,7 @@ function make_array(arrlength){
 
         container.appendChild(blocks[i]);
     }
-    console.log(blocks);
+    
 }
 
 
